@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Markah Keceriaan Kelas</title>
+</head>
+<body>
+    <h1>Markah Keceriaan Kelas</h1>
+    <form method="POST">
+        <input type="text" name="name" placeholder="Nama Pelajar" required>
+        <button type="submit">Hantar</button>
+    </form>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
